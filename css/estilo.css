@@ -10,9 +10,7 @@ table, td, tr {
 	color: black;
 	font-family: sans-serif;
 	font-size: small;
-};
-
-blockquote[class=quote][cite] { color:#f00; }
+}
 
 p {
 	text-align: center;
@@ -48,7 +46,7 @@ img.displayed {
 	img.displayed_perf{
 
 		position:absolute; 
-		top:200px; 
+		top:150px; 
 		left:585px; 
 		z-index: 1;
 
@@ -56,17 +54,48 @@ img.displayed {
 		border-radius: 100px;
 		border-width: 5px;
 		border-color: white;
+		box-shadow: 0px 2px 10px #CCCCCC;
 
 		text-align: center;
 	}
 
 	nav{
 		display: block;
-		text-align: center;
-		justify-content: center;
-		align-items: center;
 		font-size: smaller;
 		list-style-type: none;
+	}
+
+	nav.menu figcaption{
+		display: inline;
+		text-align: center;
+		font-size: smaller;
+		position: bottom;
+		font-family: sans-serif;
+		color: white;
+	}
+
+	nav.menu{
+		padding: 2px 10px;
+		background-color: #283E4A;
+	}
+
+	nav.menu a {
+		padding: 2px 10px;
+	}
+
+	nav.menu li {
+		padding: 2px 10px;
+		display: inline-block;
+		background-color:#283E4A;
+		color: #F0FFFF;
+		text-decoration: none;
+		font-family: sans-serif;
+		font-size: smaller;
+		border-bottom:3px solid #283E4A;
+	}
+
+	figure{
+		text-align: center;
 	}
 
 	#wrapper{
@@ -84,32 +113,6 @@ img.displayed {
 		font-family: sans-serif;
 		font-size: smaller;
 
-	}
-
-	#menu ul{
-		padding: 2px 10px;
-		display: inline-block;
-		background-color: #283E4A;
-		color: #F0FFFF;
-		list-style: none;
-		text-align: center;
-	}
-
-	#menu ul li { display: inline; }
-
-	#menu ul li a {
-		padding: 2px 10px;
-		display: inline-block;
-		background-color:#283E4A;
-		color: #F0FFFF;
-		text-decoration: none;
-		border-bottom:3px solid #283E4A;
-	}
-	#menu ul li a:hover {
-		background-color:#283E4A;
-		color: #F0FFFF;
-		border-bottom:3px solid #F0FFFF;
-		text-align: center;
 	}
 
 	#rodapé footer {
