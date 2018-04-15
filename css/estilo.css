@@ -49,7 +49,7 @@ img.displayed {
 
 		position:absolute; 
 		top:150px; 
-		left:585px; 
+		left:680px; 
 		z-index: 1;
 
 		border-style: solid;
@@ -118,48 +118,46 @@ img.displayed {
 		font-size: smaller;
 	}
 
-#menu {
-       list-style:none;
-       margin-left:-57px;
-}
+	#menu {
+		list-style:none;
+		margin-left:-57px;
+	}
 
-#menu li {
-       display:inline;
-       padding:4px 16px 4px 16px;
-       margin-left:20px;
-}
+	#menu li {
+		display:inline;
+		padding:4px 16px 4px 16px;
+		margin-left:20px;
+	}
 
-#menu2 {
-       list-style:none;
-       margin-left:-57px;
-}
+	#menu2 {
+		list-style:none;
+		margin-left:-57px;
+	}
 
-#menu2 li {
-       display:inline;
-       padding:4px 16px 4px 16px;
-       margin-left:20px;
-}
+	#menu2 li {
+		display:inline;
+		padding:4px 16px 4px 16px;
+		margin-left:20px;
+	}
 
-#menu3 {
-       list-style:none;
-       margin-left:-57px;
-}
+	#menu3 {
+		list-style:none;
+		margin-left:-57px;
+	}
 
-#menu3 li {
-       display:inline;
-       padding:4px 16px 4px 16px;
-       margin-left:20px;
-}
+	#menu3 li {
+		display:inline;
+		padding:4px 16px 4px 16px;
+		margin-left:20px;
+	}
 
-#menu4 {
-       list-style:none;
-       margin-left:-57px;
-}
+	#menu4 {
+		list-style:none;
+		margin-left:-57px;
+	}
 
-#menu4 li{
-       display:inline;
-       padding:4px 16px 4px 16px;
-       margin-left:20px;
-}
-
-
+	#menu4 li{
+		display:inline;
+		padding:4px 16px 4px 16px;
+		margin-left:20px;
+	}
