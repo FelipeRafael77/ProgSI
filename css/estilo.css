@@ -18,6 +18,10 @@ p {
 	font-family: sans-serif;
 }
 
+figcaption{
+	text-align: center;
+}
+
 p.info {background-color: blue;}
 
 img.displayed {
@@ -35,8 +39,6 @@ img.displayed {
 	left:0px; 
 
 	z-index: 0}
-
-	h2 { text-align: center }
 
 	ul li {
 		color: black;
@@ -59,31 +61,29 @@ img.displayed {
 		text-align: center;
 	}
 
-	nav{
+	div{
 		display: block;
 		font-size: smaller;
 		list-style-type: none;
+		align-items: center;
 	}
 
-	nav.menu figcaption{
-		display: inline;
-		text-align: center;
+	div.menu figcaption{
+		display: flex;
+		text-align: right;
 		font-size: smaller;
 		position: bottom;
 		font-family: sans-serif;
 		color: white;
+		margin: 5px 2px 2px 9px;
+		vertical-align: text-bottom;
 	}
 
-	nav.menu{
-		padding: 2px 10px;
+	div.menu{
 		background-color: #283E4A;
 	}
 
-	nav.menu a {
-		padding: 2px 10px;
-	}
-
-	nav.menu li {
+	div.menu li {
 		padding: 2px 10px;
 		display: inline-block;
 		background-color:#283E4A;
@@ -92,10 +92,7 @@ img.displayed {
 		font-family: sans-serif;
 		font-size: smaller;
 		border-bottom:3px solid #283E4A;
-	}
-
-	figure{
-		text-align: center;
+		list-style: none;
 	}
 
 	#wrapper{
